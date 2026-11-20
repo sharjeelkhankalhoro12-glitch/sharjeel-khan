@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official personal website of Sharjeel Khan from Naudero, Larkana, Sindh, Pakistan.">
+  <meta name="theme-color" content="#123b70">
+  <title>Sharjeel Khan | Official Website</title>
+  <style>
+    :root { --navy:#123b70; --blue:#1f65ad; --pale:#eef5fc; --ink:#17283d; --muted:#5e7085; --white:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); background:#f7faff; line-height:1.65; }
+    header { background:var(--white); border-bottom:1px solid #e2eaf3; position:sticky; top:0; z-index:2; }
+    .nav { max-width:1080px; margin:auto; padding:15px 22px; display:flex; justify-content:space-between; align-items:center; gap:16px; }
+    .brand { color:var(--navy); font-weight:800; letter-spacing:.3px; }
+    nav a { color:var(--muted); text-decoration:none; margin-left:18px; font-size:14px; }
+    nav a:hover { color:var(--blue); }
+    .hero { background:linear-gradient(125deg,#eaf3fc,#fff 65%); }
+    .hero-inner { max-width:1080px; margin:auto; padding:68px 22px; display:grid; grid-template-columns:1.2fr .8fr; gap:48px; align-items:center; }
+    .eyebrow { color:var(--blue); text-transform:uppercase; letter-spacing:2px; font-size:12px; font-weight:700; }
+    h1 { color:var(--navy); font-size:clamp(38px,6vw,62px); line-height:1.08; margin:12px 0; }
+    .lead { color:var(--muted); font-size:18px; max-width:620px; }
+    .photo { min-height:350px; border:2px dashed #9bb9d9; border-radius:22px; background:#e6f0fa; display:flex; align-items:center; justify-content:center; text-align:center; padding:18px; color:#476582; }
+    .photo img { width:100%; height:100%; max-height:430px; object-fit:cover; border-radius:16px; }
+    .photo-note { font-size:13px; }
+    .button { display:inline-block; margin-top:16px; background:var(--navy); color:white; text-decoration:none; padding:11px 19px; border-radius:9px; font-weight:700; }
+    section { max-width:1080px; margin:auto; padding:52px 22px; }
+    h2 { color:var(--navy); font-size:29px; margin:0 0 14px; }
+    .sub { color:var(--muted); max-width:760px; }
+    .cards { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-top:25px; }
+    .card { background:white; border:1px solid #e1eaf4; border-radius:16px; padding:23px; box-shadow:0 8px 24px rgba(24,61,101,.04); }
+    .card h3 { color:var(--blue); margin:0 0 8px; }
+    .facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:24px; }
+    .fact { background:var(--pale); padding:16px; border-radius:12px; }
+    .fact strong { display:block; color:var(--navy); }
+    .contact { background:var(--navy); color:white; border-radius:18px; padding:28px; }
+    .contact h2 { color:white; }
+    .contact p { color:#e1ebf7; }
+    footer { text-align:center; color:var(--muted); font-size:13px; padding:25px 15px; }
+    .notice { font-size:12px; color:var(--muted); border-top:1px solid #e2eaf3; margin-top:18px; padding-top:12px; }
+    @media(max-width:700px) { .hero-inner { grid-template-columns:1fr; padding:48px 20px; gap:26px; } .photo { min-height:260px; } .cards,.facts { grid-template-columns:1fr; } nav a { margin-left:9px; font-size:12px; } }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">SHARJEEL KHAN</div>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow">Personal Website</div>
+        <h1>Sharjeel Khan</h1>
+        <p class="lead">A personal profile from Naudero, District Larkana, Sindh, Pakistan, sharing my interests, experiences and professional journey.</p>
+        <a class="button" href="#about">Discover my story</a>
+      </div>
+      <div class="photo">
+        <!-- Add your own suitable police-uniform portrait as profile-photo.jpg in this folder. -->
+        <div>
+          <strong>Profile photograph</strong>
+          <p class="photo-note">Your selected police-uniform photo will appear here after you add the image file named <b>profile-photo.jpg</b>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About Sharjeel</h2>
+    <p class="sub">I am from Naudero, District Larkana, Sindh, Pakistan. I completed Intermediate in Pre-Engineering. This website is my personal space to present my background and share updates about my journey.</p>
+    <div class="facts">
+      <div class="fact"><strong>Hometown</strong>Naudero, Larkana</div>
+      <div class="fact"><strong>Education</strong>Intermediate, Pre-Engineering</div>
+      <div class="fact"><strong>Based in</strong>Sindh, Pakistan</div>
+    </div>
+  </section>
+
+  <section id="journey">
+    <h2>My Journey</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Cricket</h3>
+        <p>Under-19 cricket in 2023, as described by me. Team, competition and selection details can be added once confirmed with records.</p>
+      </article>
+      <article class="card">
+        <h3>Public Service</h3>
+        <p>Sindh Police Constable, Larkana Region, as described by me. This section should be published only with accurate details and in line with applicable department rules.</p>
+      </article>
+    </div>
+    <p class="notice">This is a personal website, not an official website of the Pakistan Cricket Board or Sindh Police. Career details are self-reported and are not presented as independently verified endorsements or affiliations.</p>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Connect</h2>
+      <p>Official social links and a public contact email can be added here when ready.</p>
+      <p><strong>Location:</strong> Naudero, District Larkana, Sindh, Pakistan</p>
+    </div>
+  </section>
+</main>
+<footer>© <span id="year">2026</span> Sharjeel Khan. Personal website.</footer>
+</body>
+</html>
